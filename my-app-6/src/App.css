@@ -1,0 +1,55 @@
+.navbar {
+  color: white;
+}
+
+.navbar-black {
+  color: black;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.controlled-container {
+  margin: 20px auto;
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.controlled-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.controlled-textarea {
+  width: 100%;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+  box-sizing: border-box; 
+}
+
+.controlled-length {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.controlled-button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
