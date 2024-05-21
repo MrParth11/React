@@ -1,0 +1,182 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.543)), url(./liabrary/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-text{
+  margin-top: 250px;
+}
+
+#company_logo .row .col-lg-2{
+  filter: grayscale(0.9);
+  transition: 1ms;
+}
+
+#company_logo .row .col-lg-2:hover{
+  filter: none;
+}
+
+#foricon i{
+  color:  rgb(224, 59, 59);
+  background-color:  rgba(224, 59, 59, 0.139);
+  border-radius: 50%;
+}
+
+#foricon i:hover{
+  color: white;
+  background-color: rgb(224, 59, 59);
+}
+
+.counter{
+  height: 400px;
+  background:linear-gradient(rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.543)), url(./liabrary/stats-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.count{
+  font-size: 45px;
+}
+
+.darkgray{
+  color: darkslategray;
+}
+
+.paragraph{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#service i{
+  font-size: 55px;
+  color: darkslategray;
+}
+
+#service h5{
+  color: rgb(224, 59, 59);
+}
+
+#service p{
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.flex-direction{
+  flex-direction: column;
+}
+
+#feat{
+  position: relative;
+}
+
+.feature01{
+  width: 480px;
+  top: 18%;
+  /* margin-left: 15%; */
+  z-index: 1 !important;
+  border: 2px solid white;
+  position: absolute;
+
+}
+
+.feature02{
+  width: 500px;
+  margin-left: 75%;
+  z-index: -1 ;
+}
+
+.icon-right i{
+  font-weight: bold;
+  color: rgb(224, 59, 59);
+}
+
+.call{
+  background:linear-gradient(rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.543)), url(./liabrary/cta-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.call button:hover{
+  background-color: rgb(224, 59, 59);
+}
+
+#team img{
+  border-radius: 50%;
+  width: 240px;
+  position: relative;
+    z-index: 1;
+}
+
+#team img:hover .overlay{
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  visibility: visible;
+}
+
+#team .overlay{
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  transition: 0.3s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#contact-icon i{
+  font-size: 40px;
+  color: rgb(224, 59, 59);
+}
+
+.footer i:hover , h6:hover{
+  color: rgb(224, 59, 59);
+  cursor: pointer;
+}
+
+.footer .contct:hover{
+  color: black;
+  cursor: auto;
+}
+
+.cursive{
+  font-family: cursive;
+}
+
+.trebuchet{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.read{
+  color: white;
+  background-color: rgb(224, 59, 59);
+}
+
+.font{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bg{
+  background-color: #f4f4f4;
+}
+
+.colour{
+  color: white;
+}
+
+.font-size-20px{
+  font-size: 20px;
+}
+
+.bold{
+  font-weight: bolder;
+}
+
+.padding-right{
+  padding-right: 10px;
+}

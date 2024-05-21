@@ -1,0 +1,241 @@
+.logo{
+  width: 300px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.8),black);
+}
+
+.nav{
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+
+.intro{
+  height: 550px;
+  top: 0px;
+  position: relative;
+  background-image: linear-gradient(rgb(0,0,0,0.5),black), url(.//bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.intro .text{
+  transform: translate(-50% , -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 100%;
+}
+
+.intro h1{
+  font-size: 60px;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+}
+
+.about div{
+  width: 600px;
+  /* border: 1px solid black; */
+}
+
+.service-box div{
+  width: 320px;
+  height: 220px;
+  border: 1px solid lightgray;
+  padding-top: 40px;
+  box-shadow: 2px 2px 20px 2px lightgray;
+}
+
+.service-box div:hover{
+  background-color: rgb(17, 72, 17);
+  color: white;
+}
+
+.service-box p{
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+}
+
+.service-box i{
+  font-size: 50px;
+}
+
+.destination{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.deatination-picture{
+  width: 780px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  filter: grayscale(0.9);
+  transition: 1s;
+}
+
+.deatination-one{
+  width: 380px;
+  filter: grayscale(0.9);
+  transition: 1s;
+}
+
+/* .destination .deatination-picture img:hover{
+  filter: none;
+} */
+
+.destination .deatination-one:hover{
+  filter: none;
+}
+
+.list{
+  justify-content: space-evenly;
+}
+
+.pack{
+  width: 420px;
+  height: 600px;
+  border: 1px solid lightgray;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pack_detail div{
+  width: 350px;
+  height: 50px;
+  border: 1px solid lightgray;
+}
+
+.picture_pack{
+  width: 100%;
+  height: 250px;
+}
+
+.pack_detail h5{
+  margin-top: 15px;
+}
+
+.pack_detail div:hover{
+  background-color: rgb(15, 89, 15);
+  color: whitesmoke;
+}
+
+.pack p{
+  padding-left: 45px;
+  padding-right: 45px;
+  font-size: 15px;
+}
+
+button{
+  padding: 10px 25px 10px 25px;
+  transition: 1s;
+  font-size: 16px;
+  background-image: linear-gradient(rgba(0,0,0,0.9),rgb(22, 66, 22));
+  color: white;
+  border: none;
+}
+
+button:hover{
+  color: white;
+  box-shadow: 2px 2px 3px 1px darkslategrey;
+}
+
+.booking-sec{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  box-shadow: 2px 2px 15px 2px lightgray;
+  margin-bottom: 50px;
+  background-image: linear-gradient(rgb(0,0,0,0.5),black), url(.//booking.jpg);
+  padding: 40px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+::placeholder{
+  color: whitesmoke;
+}
+
+.booking-sec div{
+  width: 45%;
+  padding: 15px;
+}
+
+.input1{
+  width: 250px;
+  height: 45px;
+  padding-left: 5px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border:1px solid lightgray
+}
+
+.transparent{
+  background: transparent;
+}
+
+.footer{
+  height: 350px;
+  margin-top: 5%;
+  color: white;
+  background-image: linear-gradient(rgba(0,0,0,0.9),black);
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer div{
+  width: 250px;
+  height: auto;
+  }
+
+.text-align{
+  text-align: center;
+}
+
+.display{
+  display: flex;
+}
+
+.padding{
+  padding: 6px 20px 6px 20px;
+}
+
+.margine-top{
+  margin-top: 20px;
+}
+
+.margine-top-25px{
+  margin-top: 25px;
+}
+.font-size-45px{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.font-size-20px{
+  font-size: 20px;
+}
+
+.Courier{
+  font-family :'Courier New', Courier, monospace;
+}
+.cursive{
+  font-family: cursive;
+}
+
+.intro input{
+  width: 650px;
+  padding: 8px;
+  border-radius: 30px;
+}

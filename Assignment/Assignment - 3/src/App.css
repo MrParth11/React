@@ -1,0 +1,63 @@
+body{
+background-color: #111;
+}
+
+.clippath{
+  clip-path: polygon(0 0, 15% 0, 26% 100%, 0% 100%);
+  background-color: rgb(249, 125, 1);
+  height: 100vh;
+  z-index: -1;
+}
+
+#home-row{
+  position: absolute;
+  top: 0;
+}
+
+.picture{
+  border: 1px solid rgb(182, 182, 209);
+  height: 640px;
+  border-radius: 30px;
+}
+
+#icon{
+  font-size: 40px;
+  background-color: rgb(94, 93, 93);
+}
+
+#icon:hover{
+  background-color:rgb(238, 175, 16);
+  color: white;
+}
+
+.Poppins-font{
+  font-family: Poppins, sans-serif;
+}
+
+/* About  */
+
+#large-text{
+  font-size: 110px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  color: rgb(46, 45, 45);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+#heading{
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  left: 530px;
+  top: 88.5px;
+  z-index: 1;
+}
+
+#details h6{
+  line-height: 30px;
+}
+
+
+
+
