@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+.in_1{
+    width: 350px;
+    height: 45px;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sub_main{
+    flex-basis: 23%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
