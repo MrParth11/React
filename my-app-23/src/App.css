@@ -1,0 +1,135 @@
+/* Product.module.css */
+
+:root {
+  --font-ter: sans-serif;
+  --clr-pri: 255, 242, 0;
+  --clr-sec: 210, 85, 11;
+  --clr-black: 0, 0, 0;
+  --clr-dark: 11, 11, 11;
+}
+
+body {
+  background: #212121;
+}
+
+/* Loader styles */
+.cs-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  flex-direction: column;
+  display: none;
+}
+
+.cs-loader.show {
+  display: flex;
+}
+
+.cs-loader__media {
+  position: relative;
+  max-width: 8rem;
+  max-height: 8rem;
+  margin-bottom: 1rem;
+}
+
+.cs-loader__media img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Text animation */
+.waviy {
+  -webkit-box-reflect: below -5px linear-gradient(transparent, rgba(0, 0, 0, 0.4));
+}
+
+.waviy span {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: var(--font-ter);
+  font-size: 1.8rem;
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+  animation: waviy 1s infinite;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(70deg, rgba(var(--clr-sec), 1), rgba(var(--clr-pri), 1), rgba(var(--clr-sec), 1));
+}
+
+@keyframes waviy {
+  0%, 40%, 100% {
+      transform: translateY(0);
+  }
+  20% {
+      transform: translateY(-5px);
+  }
+}
+
+/* Product details */
+.product-details {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  margin: auto;
+}
+
+.product-details h1 {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+}
+
+.product-details img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.product-details p {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.product-details .price {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: rgba(var(--clr-pri), 1);
+  margin-bottom: 20px;
+}
+
+.product-details ul {
+  margin-bottom: 20px;
+}
+
+.product-details ul li {
+  margin-bottom: 5px;
+}
+
+/* Main content */
+.main-content {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
